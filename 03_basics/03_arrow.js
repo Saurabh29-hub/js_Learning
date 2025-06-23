@@ -35,13 +35,13 @@ const chai =  () => {
 
 // chai()
 
-// const addTwo = (num1, num2) => {
+// const addTwo = (num1, num2) => { need to write return
 //     return num1 + num2
 // }
 
 // const addTwo = (num1, num2) =>  num1 + num2
 
-// const addTwo = (num1, num2) => ( num1 + num2 )
+// const addTwo = (num1, num2) => ( num1 + num2 ) // return itself not need to write return
 
 const addTwo = (num1, num2) => ({username: "hitesh"})
 
