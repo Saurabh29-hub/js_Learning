@@ -30,10 +30,10 @@
     //Edit  1st approach for Edit
     const secondLang = document.querySelector("li:nth-child(2)")
     console.log(secondLang);
-    //secondLang.innerHTML = "Mojo"  2nd approach but costly
+    //secondLang.innerHTML = "Mojo"  1st approach but costly
     const newli = document.createElement('li')
     newli.textContent = "Mojo"
-    secondLang.replaceWith(newli)
+    secondLang.replaceWith(newli)  //2nd approach
 
     //edit
     const firstLang = document.querySelector("li:first-child")
