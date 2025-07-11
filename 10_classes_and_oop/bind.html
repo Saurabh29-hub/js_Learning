@@ -14,7 +14,7 @@
             this.library = "React"
             this.server = "https://localhost:300"
 
-            9//requirement
+            //requirement
             document
                 .querySelector('button')
                 .addEventListener('click', this.handleClick.bind(this))
@@ -22,7 +22,7 @@
         }
         handleClick(){
             console.log("button clicked"); // by using bind property we access its methods and property.
-            console.log(this.server);
+            console.log(this.server);// this of constructor pass.
         }
     }
 
